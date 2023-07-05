@@ -9,7 +9,6 @@ class Carousel extends Component {
     images: ["http://pets-images.dev-apis.com/pets/none.jpg"],
   };
   handleIndexClick = (e) => {
-    console.log(this);
     this.setState({
       active: +e.target.dataset.index,
     });
